@@ -1,6 +1,22 @@
 
-function isFrom(regNumber, location){
-    var  result = regNumber.startsWith(location);
-    return result;
+function fromWhere(regNumber){
+  // console.log(regNumber);
+  if (regNumber.startsWith("CY")) {
+    
+    return "Bellville";
+    
+  } else if (regNumber.startsWith("CJ")){
+    
+   return "Paarl";
+    
+  } else if (regNumber.startsWith("CA")){ 
+    
+    return "Cape Town";
+    
+  } else {
+    
+    return "Some other place!"
+    
   }
+}
   

@@ -1,6 +1,5 @@
 
 function countAllPaarl(regNumber){
-  //console.log(regNumber);
   var regString = regNumber.split(', ');
   var totalReg = 0;
   

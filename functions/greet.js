@@ -1,6 +1,6 @@
 
 function greet(neighbourName){
     var result = "Hello, " + neighbourName;
-    // console.log(result);
+    console.log(result);
     return result;
   }

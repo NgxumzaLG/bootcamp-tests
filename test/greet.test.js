@@ -1,9 +1,9 @@
 describe('this greet' , function(){
     it('should returns a greeting message correct' , function(){
-        assert.equal('Hello, Vasco', greet('Vasco'));
+        assert.equal(greet('Vasco'), 'Hello, Vasco');
     });
     it('should returns a greeting message correct' , function(){
-        assert.equal('Hello, Lusanda', greet('Lusanda'));
+        assert.equal(greet('Lusanda'), 'Hello, Lusanda');
     });
 
 });
